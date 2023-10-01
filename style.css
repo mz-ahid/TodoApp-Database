@@ -1,0 +1,138 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: #f8763046;
+}
+
+.hidden{
+    display: none;
+}
+
+.main{
+    width: 80%;
+    height: 500px;
+    box-shadow:  0 0 20px #57565c;
+    background:  #f9f777c4;
+    padding: 15px;
+    margin: 50px auto  ;
+    border-radius: 10px;
+}
+
+.todoList{
+    margin-top: 20px;
+    height: 97%;
+    
+}
+.todoAdd h6{
+    border: 2px solid #68676746;
+    box-shadow: 0 0 10px #fff;
+    padding: 5px;
+    background-color: #03f7ffc9;
+    border-radius: 10px;
+}
+
+#todoList{
+    height: 97%;
+    overflow: auto;
+}
+#todoList::-webkit-scrollbar{
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ff76bf; 
+    box-shadow:  0 0 10px #4ee7ef;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff5e5e4b; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.liData {
+    width: 260px;
+    list-style: none;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+box-shadow: -2px -1px 5px #ffffff;
+position: relative;
+display: flex;
+justify-content: space-between;
+}
+
+.listDataValue{
+    overflow-wrap: break-word;
+    width: 80%;
+}
+.liBtn{
+position: absolute;
+right: 5px;
+}
+
+.btn{
+    border: none;
+    background: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.todoAdd{
+    height: 80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#inp{
+    width: 300px;
+    height: 150px;  
+    background-color: #03f7ffc9;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+#inp::placeholder{
+    text-align: start;
+    color: #000000;
+    padding: 20px;
+    vertical-align: text-top;
+}
+
+.inpDiv{
+    box-shadow: 0 0 10px #bababa;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.newBtn{
+    border: 2px solid yellow;
+    padding: 10px;
+    background-color: #03f7ffc9;
+    border: 2px solid #68676746;
+    box-shadow: 0 0 10px #fff;
+}
+
+#updateInput{
+    width: 200px;
+    background-color: #68676746;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+}
+
